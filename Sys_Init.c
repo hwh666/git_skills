@@ -42,8 +42,7 @@ void ST_Sys_Init(void)
 	ST_nRF24L01_Init();
     ST_TIM3_PWM_Init(400,PWM_Polarity_High); //��ʼ�����PWM
     
-    
-    
+       
 //	ST_Throttle_Calibration();//�����г�У׼
 //    ST_Delay_ms(10000);
 //    while(1)
