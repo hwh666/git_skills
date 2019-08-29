@@ -13,7 +13,7 @@ int main()
 	
 	ST_UART3_Init(115200);  //STM32(����1)---->TI(����3)     STM32������̬��Ϣ
                              //TI(����3)   ---->STM32(����1)  STM32���տ�����Ϣ
-    ST_UART1_Init(115200);  //TI(����5)---->Openmv     TI����ģʽ��߶���Ϣ
+    ST_UART2_Init(115200);  //TI(����5)---->Openmv     TI����ģʽ��߶���Ϣ
                              //Openmv   ---->TI(����5)  TI����λ����Ϣ
     
 //	ST_Timer0_Both_Init(2000,50000);
